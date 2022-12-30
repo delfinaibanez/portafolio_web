@@ -1,0 +1,716 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@200;300;400&family=Poppins:ital,wght@1,400;1,600&display=swap');
+
+
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Encode Sans', sans-serif;
+
+}
+
+main {
+     margin: 0 auto;
+     width: 89vm;
+     height: 90vh;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     align-items: center;
+     padding: 100px;
+     line-height: 50px;
+
+}
+
+.presentacion {
+     font-size: 50px
+}
+
+.presentacion_p {
+     font-size: 20px;
+
+}
+
+span {
+
+     color: #d90f5a;
+}
+
+.icono_main {
+     font-size: 50px;
+     color: #07f9a2;
+
+}
+
+.descargar {
+     padding: 10px;
+     background-color: #ff6e27;
+     border: none;
+     border-radius: 20px;
+     margin-top: 10px;
+     cursor: pointer;
+     box-shadow: 1px 2px 12px -2px#f34739;
+
+}
+
+.descargar:hover {
+     background-color: #991766;
+     transition: ease-in .4s;
+}
+
+body {
+     width: 88vm;
+     height: 80vh;
+     overflow-x: hidden;
+     font-family: 'Courier New', Courier, monospace;
+}
+
+.wrapper {
+     width: 100vw;
+     height: 100vh;
+     background-color: black;
+     color: aliceblue;
+     justify-content: space-evenly;
+}
+
+.brand {
+     margin-top: -7px;
+}
+
+
+
+.navbar {
+     display: flex;
+     justify-content: space-between;
+     padding: 1em;
+     background-color: #331327;
+     flex: auto;
+}
+
+.menu {
+     color: white;
+     display: flex;
+     width: 50%;
+     justify-content: space-around;
+     line-height: 50px;
+     flex: auto;
+}
+
+.menu li {
+     list-style: none;
+}
+
+.menu a {
+     color: white;
+     text-decoration: none;
+     font-size: 20px;
+     padding: 10px;
+
+}
+
+
+.menu a:hover {
+     background-color: #9917659f;
+     color: #331327;
+     transition: ease-in .4s;
+}
+
+.boton_estudios {
+     padding: 10px;
+     background-color: #ff6e27;
+     border: none;
+     border-radius: 10px;
+     cursor: pointer;
+     font-size: 20px;
+     justify-content: left;
+     box-shadow: 1px 2px 18px -2px #f34739;
+     flex: auto;
+
+}
+
+.boton_estudios:hover {
+     background-color: #991766;
+     transition: ease-in .4s;
+}
+
+.conteiner_estudios {
+     padding-left: 950px;
+     padding-right: 50px;
+
+}
+
+
+.conteiner_sobre_mi {
+     width: 65%;
+     margin: auto;
+     margin-top: 2.5em;
+}
+
+.sobre_mi {
+     justify-content: center;
+     display: grid;
+     width: 80vw;
+
+}
+
+.sobre_imagen {
+     width: 124.7%;
+     height: 50vh;
+     background-image: url(imagenes/coppia.jpg);
+}
+
+
+.informacion_sobre_mi {
+     color: white;
+     grid-column: 5/10;
+     text-align: center;
+     line-height: 35px;
+     padding: 1em;
+}
+
+.informacion_sobre_mi h2 {
+     text-align: center;
+     font-size: 2em;
+     color: white;
+
+}
+
+.habilidades {
+     background-color: black;
+     color: #fffbfc;
+     width: 255vh;
+     height: 80vh;
+     font-size: 20px;
+}
+
+.habilidades h1 {
+     font-size: 5px;
+}
+
+
+.portafolio_titulo h1 {
+     padding: 20px;
+     font-size: 35px;
+     text-align: left;
+}
+
+
+.container {
+     align-self: center;
+     align-items: center;
+     height: 200px;
+     padding: 50px;
+     flex: auto;
+}
+
+.informacion_habilidades {
+     width: 70vw;
+     justify-content: center;
+
+}
+
+.informacion_habilidades h2 {
+     height: fit-content;
+     width: auto;
+
+
+}
+
+.habilidades_links {
+     display: flex;
+     justify-content: space-evenly;
+     flex: auto;
+
+}
+
+.habilidades_links a {
+     color: #d90f5a;
+     padding: 10px;
+}
+
+.habilidades_links i {
+     font-size: 2.8em;
+}
+
+.seccion_contacto {
+     background-color: #d90f5a;
+}
+
+.contacto_head {
+
+     text-align: left;
+     padding: 10px;
+}
+
+.conteiner_form {
+     padding: 5em;
+     margin: 3px;
+     margin-inline-end: auto;
+     display: flex;
+     flex-direction: column;
+     width: 30vw;
+     bottom: 0px;
+     text-align: center;
+     flex: auto;
+}
+
+
+.titulo_contacto_head {
+     font-size: 20px;
+     padding: 60px;
+     color: white;
+}
+
+.titulo_footer h2 {
+     text-align: left;
+     font-size: 20px;
+     color: white;
+     padding-left: 10px;
+}
+
+.titulo_footer h6 {
+     text-align: left;
+     font-size: 15px;
+     color: #f34739;
+     padding-left: 10px;
+     padding: 10px;
+
+}
+
+.titulo_footer i {
+     font-size: 10px;
+     padding-right: 5px;
+}
+
+.iconos_footer {
+     align-items: center;
+     padding-left: 10px;
+}
+
+.iconos_footer i {
+     font-size: 20px;
+     align-items: center;
+     color: #991766;
+}
+
+footer {
+     background-color: #331327;
+     display: flex;
+     flex-direction: row;
+     justify-content: left;
+     align-items: center;
+     width: 100vw;
+     height: 90px;
+     flex: auto;
+}
+
+
+.iconos_datos-footer {
+     font-size: 9PX;
+     color: white;
+     width: 300px;
+     height: 100px;
+
+
+}
+
+.iconos_datos-footer i {
+     color: #991766;
+
+}
+
+.section_2_footer {
+     column-count: 1;
+     text-align: left;
+     display: flex;
+
+}
+
+.iconos_datos-footer a {
+     flex-direction: column;
+     font-size: 14PX;
+
+
+}
+
+.iconos_datos-footer h6 {
+     font-size: 14PX;
+     text-align: left;
+     padding: 5px;
+}
+
+.footer_izquierdo {
+     flex-direction: column;
+     justify-content: left;
+
+     font-size: 40px;
+}
+
+.conteiner_footer {
+     flex-direction: column;
+     justify-content: center;
+
+
+}
+
+.orden_footer {
+     align-items: center;
+}
+
+.overlay {
+     background-color: rgba(0, 0, 0, .3);
+     position: fixed;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: #ebeaa9;
+     visibility: hidden;
+}
+
+.overlay.active {
+     visibility: visible;
+}
+
+.poupop {
+
+     border-radius: 3px;
+     padding: 20px;
+     text-align: left;
+     width: 600px;
+     transition: .4s ease all;
+     transform: scale(0.7);
+     opacity: 0;
+     color: white;
+     background-color: #000000b8;
+
+}
+
+.cerrar_popup {
+     font-size: 16px;
+     display: block;
+     text-align: left;
+     color: #7d2948;
+     transition: .4s ease all;
+}
+
+.cerrar_popup:hover {
+     background: #ceca0f;
+}
+
+.poupop h3 {
+     font-size: 36px;
+     font-weight: 500;
+     margin-bottom: 10px;
+
+}
+
+.derechos {
+     text-align: center;
+     font-size: 8px;
+     color: #fffbfc;
+
+}
+
+.poupop h4 {
+     font-size: 26px;
+     font-weight: 500;
+     margin-bottom: 10px;
+
+}
+
+@media screen and (max-width:740px) {
+
+     /*info principal */
+     main {
+
+          width: 70vh;
+          height: 100vh;
+          display: flex;
+          align-items: center;
+          padding: 15px;
+          padding-left: 5px;
+          line-height: 50px;
+          flex: auto;
+
+     }
+
+     .presentacion {
+          font-size: 35px
+     }
+
+     .presentacion_p {
+          font-size: 15px;
+
+     }
+
+     .portafolio_titulo h1 {
+          padding: 30px;
+          font-size: 25px;
+     }
+
+     .portafolio_titulo h6 {
+          padding: 10px;
+          font-size: 10px;
+          text-align: center;
+     }
+
+     .container {
+          align-self: center;
+          align-items: center;
+          height: 250px;
+          padding: 30px;
+     }
+
+     .sobre_imagen {
+          width: 130%;
+          height: 100vh;
+          background-image: url(imagenes/coppia.jpg);
+     }
+
+     .informacion_sobre_mi {
+          color: white;
+          grid-column: 5/1;
+          text-align: left;
+          line-height: 70px;
+          font-size: 100%;
+          padding: 50px;
+     }
+
+     .portafolio_titulo h1 {
+          padding: 50px;
+          font-size: 25px;
+     }
+
+     .portafolio_titulo h6 {
+          padding: 10px;
+          font-size: 10px;
+          text-align: center;
+     }
+
+     .conteiner_estudios {
+          padding-left: 0px;
+          padding-right: 0px;
+
+     }
+
+}
+
+.habilidades_links a {
+     color: #d90f5a;
+     line-height: 100px;
+}
+
+.habilidades_links i {
+     font-size: 3em;
+     align-items: flex-end;
+     text-align: center;
+
+}
+
+/* traer boton de estudios a la parte izquierda */
+
+
+@media screen and (max-width<700px) {
+     * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+     }
+
+     .menu {
+          display: flex;
+          height: 20px;
+          width: 35%;
+          padding: 35px;
+          justify-content: space-around;
+          justify-content: left;
+          flex-direction: column;
+     }
+
+     .menu li {
+          padding-left: 5px;
+     }
+
+     .menu a {
+          text-decoration: none;
+
+          padding: 8px;
+          flex: auto;
+          font-size: 5px;
+
+     }
+
+     .informacion_sobre_mi {
+
+          text-align: center;
+          line-height: 1px;
+          display: grid
+     }
+
+
+     .conteiner_sobre_mi h2 {
+          align-items: center;
+     }
+
+     .conteiner_sobre_mi p {
+          font-size: 5px;
+     }
+
+     /* arreglar texto del medio que esta separado */
+
+
+     .habilidades_links i {
+          font-size: 3em;
+          text-align: left;
+     }
+
+     .container {
+          align-self: center;
+          align-items: center;
+          height: 250px;
+          padding: 30px;
+     }
+
+     .informacion_habilidades h2 {
+          height: fit-content;
+          width: auto;
+
+     }
+
+     .habilidades_links {
+          display: flexbox;
+          justify-content: space-evenly;
+
+
+     }
+
+     .habilidades_links a {
+          color: #d90f5a;
+          padding: 70px;
+          line-height: 150px;
+     }
+
+     .habilidades_links i {
+          font-size: 3em;
+          align-items: left;
+     }
+
+
+
+     @media screen and (max-width:650px) {
+          * {
+               margin: 0;
+               padding: 0;
+               box-sizing: border-box;
+
+          }
+
+
+          .conteiner_sobre_mi {
+               width: 100%;
+               height: 100%;
+               display: grid;
+          }
+          .info_contenido p {
+               font-size: 30px;
+          }
+
+          .habilidades {
+
+               width: 100vh;
+               height: 900vh;
+               font-size: 20px;
+               display: flexbox;
+          }
+
+          .informacion_habilidades {
+               justify-content: center;
+
+          }
+
+          .informacion_habilidades h2 {
+               height: fit-content;
+               width: auto;
+          }
+
+
+
+          .portafolio_titulo h1 {
+               padding: 20px;
+               font-size: 75px;
+               display: grid;
+          }
+
+          footer {
+               display: flex;
+               flex-direction: row;
+               justify-content: left;
+               align-items: center;
+               width: 100vw;
+               height: 90px;
+               flex: auto;
+               display: grid;
+          }
+
+
+          .iconos_datos-footer {
+               font-size: 9PX;
+
+               width: 300px;
+               height: 100px;
+               display: grid;
+
+          }
+
+          .iconos_datos-footer i {
+               display: grid;
+
+          }
+
+          .section_2_footer {
+               display: grid;
+          }
+
+          .footer_izquierdo {
+               flex-direction: column;
+               justify-content: left;
+               display: flexbox;
+               font-size: 40px;
+               display: grid;
+          }
+
+          .section_2_footer {
+               column-count: 1;
+               text-align: left;
+               display: grids;
+
+          }
+
+          .iconos_datos-footer a {
+               flex-direction: column;
+               font-size: 14PX;
+               display: grid;
+
+
+          }
+
+          .iconos_datos-footer h6 {
+               font-size: 14PX;
+               text-align: left;
+               padding: 5px;
+               display: grid;
+          }
+
+     }
+
+
+     /*animaciones*/
+     .poupop.active {
+          opacity: 2;
+          transform: scale(1)
+     }
+}
