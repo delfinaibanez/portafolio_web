@@ -155,8 +155,8 @@ body {
 
 .sobre_imagen {
      width: 124.7%;
-     height: 50vh;
-     background-image: url(imagenes/coppia.jpg);
+     height: 10 0%;
+     background-color: black;
 }
 
 
@@ -372,7 +372,7 @@ footer {
 }
 
 .overlay.active {
-     visibility: visible;
+     visibility: visible ; 
 }
 
 .poupop {
@@ -383,10 +383,13 @@ footer {
      width: 600px;
      transition: .4s ease all;
      transform: scale(0.7);
-     opacity: 0;
+     opacity: 0 ;
      color: white;
      background-color: #000000b8;
 
+}
+.poupop.active{
+     opacity: 1 ;
 }
 
 .cerrar_popup {
