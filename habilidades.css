@@ -1,0 +1,44 @@
+
+
+.titulo_principal_habilidades h1 {
+     font-size: 300%;
+     text-align: center;
+     color:#bbadff;
+
+
+}
+.informacion_habilidades{
+     padding: 80px;
+     color: rgb(244, 244, 244);
+     font-size: 250%;
+     display: flexbox;
+     flex-direction: column;
+     columns: auto;
+
+
+}
+.informacion_habilidades h1{
+     color:#bbadff;
+     font-size: 100%;
+    
+}
+.informacion_habilidades h3{
+     font-size: 60%;
+     text-align: left;
+
+}
+
+.informacion_habilidades span{
+     color: #5a189a;
+}
+.imagen_hablidades img{
+     height: 180%;
+     width: 100%;
+
+}
+.imagen_hablidades{
+    display: flexbox;
+    padding-left: 80%;
+    position: relative;
+    top: -35%;
+}
