@@ -28,6 +28,8 @@ main {
      align-items: center;
      padding: 100px;
      line-height: 50px;
+     background: linear-gradient( #b298dc, #8187dc);
+ height: 100%;
 
 }
 
@@ -37,11 +39,9 @@ main {
      height: 20%;
      position: relative;
      left: 80%;
+
 }
-.imagen_presentacion {
- 
-     background-color: #8187dc;
-}
+
 
 .imagen2{
      width:50%;
@@ -132,6 +132,7 @@ body {
      justify-content: space-around;
      line-height: 50px;
      flex: auto;
+     
 }
 
 .menu li {
@@ -151,6 +152,7 @@ body {
      background-color: #e0c3fc;
      color: white;
      transition: ease-in .4s;
+    
 }
 
 /**/
@@ -202,14 +204,6 @@ body {
      width: 150%;
      height: 150%;
 }
-.imagen_sobre_mi{
-     display: flexbox;
-     padding-left: 80%;
-     padding: auto;
-     position: relative;
-     top: -0%;
-}
-
 
 
 
@@ -218,11 +212,11 @@ body {
      justify-content: center;
      display: grid;
      width: 80vw;
-     background-color:#8187dc;
+     background-color:hwb(236 51% 14%);
      height: 90%;
-     width: 100%;
-}
+     width: 100%;;
 
+}
 
 
 .informacion_sobre_mi {
@@ -244,11 +238,12 @@ body {
 /*linnks*/
 
 .habilidades {
-     background-color: #8187dc;
+     background-color: #8187dc ;
      color: white;
      width: 100%vh;
      height: 100vh;
      font-size: 20px;
+  
 }
 
 .habilidades h1 {
@@ -486,6 +481,141 @@ color: black;
      margin-bottom: 10px;
 
 }
+/*menu interativo*/
+.hover-underline-animation {
+     display: inline-block;
+     position: relative;
+     color: black;
+   }
+   
+   .hover-underline-animation::after {
+     content: '';
+     position: absolute;
+     width: 100%;
+     transform: scaleX(0);
+     height: 2px;
+     bottom: 0;
+     left: 0;
+     background-color:#5a189a;
+     transform-origin: bottom right;
+     transition: transform 0.25s ease-out;
+   }
+   
+   .hover-underline-animation:hover::after {
+     transform: scaleX(1);
+     transform-origin: bottom left;
+   }
+
+/*imagen interativa delfina */
+.hover-img {
+     background-color: #000;
+     color: #fff;
+     display: inline-block;
+     margin: 0px;
+     max-width: 500px;
+     min-width: 500px;
+     overflow: hidden;
+     position: relative;
+     text-align: center;
+     width: 100%;
+   }
+   
+   .hover-img * {
+     box-sizing: border-box;
+     transition: all 0.45s ease;
+   }
+   
+   .hover-img::before,
+   .hover-img::after {
+     background-color: rgba(0, 0, 0, 0.5);
+     border-top: 32px solid rgba(0, 0, 0, 0.5);
+     border-bottom: 32px solid rgba(0, 0, 0, 0.5);
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     content: '';
+     transition: all 0.3s ease;
+     z-index: 1;
+     opacity: 0;
+     transform: scaleY(2);
+   }
+   
+   .hover-img img {
+     vertical-align: top;
+     max-width: 100%;
+     backface-visibility: hidden;
+   }
+   .imagen_delfina{
+     position: relative;
+     bottom: -4px;
+     left: 30%;
+   }
+   .imagen_delfina h1{
+     position: relative;
+     bottom: -4px;
+     left: 3%;
+     color:#bbadff;
+     font-size: 250%;
+     bottom: 150px;
+   }
+   .informacion_proyecto{
+     background-color: #c5bcee9f;
+     color: #cbb2fe;
+     width: 28%;
+     position: relative;
+     bottom: -189px;    
+      left: 40%;
+      top: -280px;
+      border-radius: 10px;
+   }
+   .informacion_proyecto h2{
+     color: #5a189a;
+     position: relative;
+     font-size: 35px;
+   }
+   .informacion_proyecto h3{
+     color: white;
+
+     font-size: 20px;
+   }
+   .hover-img figcaption {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     align-items: center;
+     z-index: 1;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     line-height: 1.1em;
+     opacity: 0;
+     z-index: 2;
+     transition-delay: 0.1s;
+     font-size: 24px;
+     font-family: sans-serif;
+     font-weight: 400;
+     letter-spacing: 1px;
+     text-transform: uppercase;
+   }
+   
+   .hover-img:hover::before,
+   .hover-img:hover::after {
+     transform: scale(1);
+     opacity: 1;
+   }
+   
+   .hover-img:hover > img {
+     opacity: 0.7;
+   }
+   
+   .hover-img:hover figcaption {
+     opacity: 1;
+   }
+
 
 @media screen and (max-width:740px) {
 
