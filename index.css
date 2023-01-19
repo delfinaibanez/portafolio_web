@@ -43,15 +43,7 @@ main {
 }
 
 
-.imagen2{
-     width:50%;
-     height: 20%;
-     position: relative;
-     left: 60%;
-     position: relative;
-     bottom: 150px;
 
-}
 .presentacion {
      font-size: 70px;
      padding:5px;
@@ -103,7 +95,7 @@ span {
 }
 
 .descargar:hover {
-     background-color: #ff8fa3;
+     background-color: #59189a71;
      transition: ease-in .4s;
 }
 
@@ -162,7 +154,7 @@ body {
 .menu a:hover {
      background-color: #e0c3fc;
      color: white;
-     transition: ease-in .4s;
+
     
 }
 
@@ -181,7 +173,7 @@ body {
 }
 
 .boton_estudios:hover {
-     background-color:#ff8fa3;
+     background-color : #59189a71;
      transition: ease-in .4s;
 }
 
@@ -190,7 +182,14 @@ body {
      padding-right: 50px;
 
 }
+.linea_puntos img{
+     width:70%;
+     height: 10%;
+     position: relative;
+     left: 18%;
+     bottom: 100px;
 
+}
 
 .conteiner_sobre_mi {
      width: 80%;
@@ -267,6 +266,9 @@ body {
      font-size: 50px;
      text-align: left;
      color:#bbadff;
+     position: relative;
+  left: 60px;
+  bottom: -78px;
 }
 .parte_proyectos{
      height: 100%;
@@ -277,16 +279,16 @@ body {
      display: flexbox;
      padding-left: 70%;
      position: relative;
-     bottom: -50;
      left: 10%;
      color: #5a189a;
+     bottom:-110px;
 }
 .github_icono{
      display: flexbox;
-     padding-left: 10%;
+     padding-left: 17%;
      padding: auto;
      position: relative;
-     bottom: 130px;
+     bottom: 20px;
      color: #5a189a;
 
 }
@@ -305,7 +307,7 @@ body {
      align-items: center;
      position: relative;
     right: 80%;
-    position: relative;
+    bottom: -100px;
     left: -450px;
 }
 .container {
@@ -649,104 +651,6 @@ color: black;
    }
 
 
-@media screen and (max-width:740px) {
+@media screen and (max-width:584px) {
 
-     /*info principal */
-     main {
-
-          width: 70vh;
-          height: 100vh;
-          display: flex;
-          align-items: center;
-          padding: 15px;
-          padding-left: 5px;
-          line-height: 50px;
-          flex: auto;
-
-     }
-
-     .presentacion {
-          font-size: 35px
-     }
-
-     .presentacion_p {
-          padding: 5px;
-          font-size: 15px;
-
-     }
-   
-     .portafolio_titulo h1 {
-          padding: 35px;
-          font-size: 25px;
-     }
-
-     .portafolio_titulo h6 {
-          padding: 10px;
-          font-size: 10px;
-          text-align: center;
-     }
-
-     .container {
-          align-self: center;
-          align-items: center;
-          height: 250px;
-          padding: 30px;
-     }
-
-     .sobre_imagen {
-          width: 130%;
-          height: 100vh;
-          background-image: url(imagenes/coppia.jpg);
-     }
-
-     .informacion_sobre_mi {
-          color: white;
-          grid-column: 5/1;
-          text-align: left;
-          line-height: 70px;
-          font-size: 100%;
-          padding: 50px;
-     }
-
-     .portafolio_titulo h1 {
-          padding: 50px;
-          font-size: 25px;
-     }
-
-     .portafolio_titulo h6 {
-          padding: 10px;
-          font-size: 10px;
-          text-align: center;
-     }
-
-     .conteiner_estudios {
-          padding-left: 0px;
-          padding-right: 0px;
-
-     }
-
-}
-
-.habilidades_links a {
-     line-height: 100px;
-}
-
-.habilidades_links i {
-     font-size: 3em;
-     align-items: flex-end;
-     text-align: center;
-
-}
-
-/* traer boton de estudios a la parte izquierda */
-
-
-@media screen and (max-width<700px) {
-
-
-     /*animaciones*/
-     .poupop.active {
-          opacity: 2;
-          transform: scale(1)
-     }
 }
