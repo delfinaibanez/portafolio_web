@@ -181,9 +181,9 @@ background-color: #b298dc;
      position: relative;
      bottom: 550px; 
      right: -50px; 
-
-
 }
+
+
 
 .conteiner_estudios{
      position: relative;
@@ -249,10 +249,9 @@ right: 50px;
 .portafolio_titulo h1 {
      padding: 50px;
      font-size: 80px;
-     text-align: left;
      color:#bbadff;
      position: relative;
-  bottom: -900px;
+  bottom: -100px;
 }
 
 
@@ -273,7 +272,7 @@ right: 50px;
 }
 
 .informacion_habilidades h3{
-     color:#bbadff;
+     color:wh;
      font-size: 10px;
      position: relative;
      left: -10px;
@@ -303,7 +302,7 @@ right: 50px;
 }
 
 .informacion_proyecto{
-     background-color: #c5bcee9f;
+     background-color: #c5bcee8d;
      color: #cbb2fe;
      width: 70%;
      position: relative;
@@ -572,11 +571,11 @@ color: black;
 
 .imagen_flores{
      position: relative;
-     top: 20px;
+     top: -20px;
 }
 .imagen_flores2{
      position: relative;
-     top: -2500px;
+     top: -2660px;
 }
 /*menu interativo*/
 .hover-underline-animation {
