@@ -1,7 +1,7 @@
 main {
      margin: 0 auto;
      width: 89vm;
-     height: 90vh;
+     height: 20vh;
      display: grid;
      grid-template-columns: repeat(2, 1fr);
      align-items: center;
@@ -34,13 +34,14 @@ span {
 .brand{
      position: relative;
      bottom: -140px;
-     right: -168px;
+     right: -203px;
      font-size: 50px;
      
 }
 .icono_main {
      font-size: 35px;
      color :#5e548e;
+     
 
      
 }
@@ -63,7 +64,7 @@ span {
 
 /*mariposa*/
 .imagen_presentacion img{
-     width:30%;
+     width:40%;
      height: 20%;
      position: relative;
      bottom: 190px;
@@ -138,11 +139,11 @@ background-color: #b298dc;
 
 .conteiner_sobre_mi h2{
      position: relative;
-     bottom: -500px;
+     bottom: 800px;
 }
 .conteiner_sobre_mi p{
      position: relative;
-     bottom: -500px;
+     bottom: 600px;
 }
 .sobre_mi{
      position: relative;
@@ -150,7 +151,7 @@ background-color: #b298dc;
 }
 .sobre_mi h2{
      position: relative;
-     bottom: -480px;
+     bottom: -490px;
      right: -130px;
      font-size: 40px; 
 }
@@ -164,13 +165,13 @@ background-color: #b298dc;
 }
 
 
-.linea_puntos{
+
+.linea_puntos img{
+     width:60%;
+     height: 70%;
      position: relative;
-     bottom: -150px; 
-     width:70%;
-     height: 10%;
-     position: relative;
-   
+     left: 18%;
+     bottom: 250px;
 
 }
 
@@ -178,10 +179,12 @@ background-color: #b298dc;
 
 .portafolio_titulo{
      position: relative;
-     bottom: -720px; 
+     bottom: 550px; 
      right: -50px; 
 
+
 }
+
 .conteiner_estudios{
      position: relative;
      bottom: -900px;
@@ -192,8 +195,10 @@ background-color: #b298dc;
      color: #bbadff;
      font-size: 250%;
      text-align: center;
-
+position: relative;
+right: 50px;
 }
+
 .boton_estudios {
      padding: 10px;
      background-color: #b298dc;
@@ -205,8 +210,8 @@ background-color: #b298dc;
      box-shadow: 1px 2px 18px -2px white;
      flex: auto;
      position: relative;
-     bottom: 70px;
-     right: -180px; 
+     bottom: 360px;
+     right: -210px; 
 
 }
 .descargar:hover {
@@ -224,28 +229,31 @@ background-color: #b298dc;
      display: flexbox;
      padding-left: 10%;
      padding: auto;
-     font-size: 30px;
+     font-size: 70px;
      position: relative;
-     bottom: -800px;
+     bottom: -730px;
      color: #5a189a;
+     right: -400px; 
+     position: relative;
 }
 .github_icono{
      display: flexbox;
      padding-left: 10%;
      padding: auto;
-     font-size: 30px;
+     font-size: 70px;
      position: relative;
-     bottom: -800px;
+     bottom: -650px;
      color: #5a189a;
 
 }
-
-
-
-
-
-
-
+.portafolio_titulo h1 {
+     padding: 50px;
+     font-size: 80px;
+     text-align: left;
+     color:#bbadff;
+     position: relative;
+  bottom: -900px;
+}
 
 
 
@@ -255,52 +263,43 @@ background-color: #b298dc;
      font-size: 5px;
      position: relative;
      left: -10px;
-     bottom: -500px;
+     bottom: -1300px;
 }
 
 
-.portafolio_titulo h1 {
-     padding: 30px;
-     font-size: 10px;
-     text-align: left;
-     color:#bbadff;
-     position: relative;
-  left: 60px;
-  bottom: -100px;
-}
 .parte_proyectos{
      height: 100%;
      width: 100%;
 }
 
 .informacion_habilidades h3{
-     color: black;
+     color:#bbadff;
      font-size: 10px;
      position: relative;
      left: -10px;
-     bottom: -458px
+     bottom: -1290px
 }
 .imagen_hablidades img{
-     color: black;
-     font-size: 30%;
+      color:#bbadff;
+     font-size: 150px;
      position: relative;
      left: -10px;
-     bottom: -400px
+     bottom: -1250px
 }
 .imagen_delfina{
      font-size: 5px;
      position: relative;
-     left: -0px;
+     left: 18px;
      right: 15px;
-     bottom: -700px
+     bottom: -1500px
 }
 
 .imagen_delfina h1{
-     font-size: 25px;
+     font-size: 35px;
      position: relative;
-     left: 5px;
-     right: 15px;
-     bottom: 30px
+     left: 120px;
+     color:#bbadff;
+     bottom:-10px
 }
 
 .informacion_proyecto{
@@ -309,7 +308,7 @@ background-color: #b298dc;
      width: 70%;
      position: relative;
       left: 15%;
-      top: 5px;
+      top: 50px;
       border-radius: 10px;
    }
    .informacion_proyecto h2{
@@ -322,9 +321,15 @@ background-color: #b298dc;
      color: rgb(9, 9, 9);
      font-size: 20px;
    }
-   .hover-img{
-     bottom: -238px; 
+   .hover-img img{
+     position: relative;
+     top: 0px; 
      right: 50px;
+}
+.hover-img {
+     position: relative;
+     top: 25px; 
+     right: -20px;
 }
    .hover-img figcaption {
      position: absolute;
@@ -399,23 +404,31 @@ background-color: #b298dc;
 
    
 .titulo_contacto_head {
-     font-size: 20px;
+    
      padding: 60px;
      color: white;
+}
+.orden_footer{
+     position: relative;
+     bottom: -1500px;
 }
 
 .titulo_footer h2 {
      text-align: left;
-     font-size: 30px;
+     font-size: 15px;
+     position:relative ;
      color: black;
+     bottom: 0px;
      padding-left: 10px;
 }
 
 .titulo_footer h6 {
      text-align: left;
-     font-size: 98%;
+     font-size: 78%;
      color: #5a189a;
      padding: 10px;
+     left: 10px;
+     position: relative;
 
 }
 
@@ -429,12 +442,13 @@ background-color: #b298dc;
 }
 
 .iconos_footer i {
-     font-size: 28px;
-     align-items: center;
+     font-size: 18px;
      color: #5a189a;
+     position: relative;
+     left: 20px;
 }
 footer {
-     top: 60%;
+     top: 1000%;
      position: relative;
      background-color: #dab6fc;
      display: flex;
@@ -442,8 +456,7 @@ footer {
      justify-content: left;
      align-items: center;
      flex: auto;
-     width: auto;
-     height: auto;
+   
 }
 
 
@@ -461,7 +474,7 @@ footer {
 
 .iconos_datos-footer a {
      flex-direction: column;
-     font-size: 23PX;
+     font-size: 13PX;
 color: black;
 
 }
@@ -469,16 +482,20 @@ color: black;
 .iconos_datos-footer h6 {
      font-size: 90%;
      text-align: left;
-     padding: 5px;
      color:  #5a189a;
+     position: relative;
+     bottom: 7px;
 }
 
 .footer_izquierdo {
      flex-direction: column;
      justify-content: left;
+     position: relative;
+ 
+
 }
 
-.conteiner_footer1 {
+.conteiner_footer1{
      flex-direction: column;
      justify-content: center;
 
@@ -553,6 +570,14 @@ color: black;
 
 }
 
+.imagen_flores{
+     position: relative;
+     top: 20px;
+}
+.imagen_flores2{
+     position: relative;
+     top: -2500px;
+}
 /*menu interativo*/
 .hover-underline-animation {
      display: inline-block;
